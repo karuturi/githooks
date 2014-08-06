@@ -26,7 +26,7 @@ z40=0000000000000000000000000000000000000000
 protected_branch="master"
 
 function do_exit() {
-	echo "direct commits to $protected_branch are not allowed, not pushing. Please go through https://cwiki.apache.org/confluence/display/CLOUDSTACK/Git"
+	echo "direct commits to $protected_branch are not allowed, not pushing. Please go through http://nvie.com/posts/a-successful-git-branching-model/ "
 	echo "To bypass and push anyway, use --no-verify.\n"
 	exit 1
 }
